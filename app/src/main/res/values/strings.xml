@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WeatherApplication</string>
+
+    <string name="temp"><b>Temperature(\u2103)</b>></string>
+    <string name="hum"><b>Humidity(&#37;)</b></string>
+    <string name="level"><b>Water Level(cc)</b></string>
+
+    <string name="rain">Please keep your clothes.\nYou are not advice to\ndry your clothes now.</string>
+    <string name="sunny">You are advice to dry\nyour clothes.</string>
+    <string name="cloud">Predict will be rain later,\nyou are not advice to dry\nyour clothes now.</string>
+</resources>

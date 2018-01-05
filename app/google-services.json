@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "802931759305",
+    "firebase_url": "https://weather-station-d30da.firebaseio.com",
+    "project_id": "weather-station-d30da",
+    "storage_bucket": "weather-station-d30da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802931759305:android:eefec475f3cf9c1e",
+        "android_client_info": {
+          "package_name": "com.example.david.weatherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802931759305-251bp6ce1jm6473i6ea6efg8974prtb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpAZ4T5KdS2htaeK2xyy2vintF2KQcSy8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802931759305:android:ab14a283cb694b5c",
+        "android_client_info": {
+          "package_name": "com.example.david.weatherapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802931759305-0iolear6v4mailr8hb1amggf4nus01io.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.david.weatherapplication",
+            "certificate_hash": "cd049a2bd69d6573418e77d4b8ddd1b9614fa1f3"
+          }
+        },
+        {
+          "client_id": "802931759305-251bp6ce1jm6473i6ea6efg8974prtb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpAZ4T5KdS2htaeK2xyy2vintF2KQcSy8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802931759305-251bp6ce1jm6473i6ea6efg8974prtb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

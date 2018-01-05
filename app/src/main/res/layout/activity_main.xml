@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/viewbackground"
+    tools:context="com.example.david.weatherapplication.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtswitch"
+            android:text="Manual Mode"
+            android:textColor="#4d4948"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentRight="true"/>
+
+        <Switch
+            android:id="@+id/switchMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:background="#000000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtWeather"
+            android:text="---"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imgInfo"
+            android:onClick="onClickImageInfo"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_action_info2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtrain"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="45dp"/>
+
+        <TextView
+            android:id="@+id/txtsunny"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/txtcloud"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="38dp"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifimage"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/weather"
+            android:layout_width="wrap_content"
+            android:layout_height="270dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:layout_alignParentStart="true"
+            android:text="@string/temp"/>
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="@string/hum"/>
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="center"
+            android:text="@string/level"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtTemperature"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:layout_alignParentStart="true"
+            android:text="---"/>
+
+        <TextView
+            android:id="@+id/txtHumidity"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="---"/>
+
+        <TextView
+            android:id="@+id/txtWaterLevel"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="center"
+            android:text="---"/>
+    </RelativeLayout>
+
+    <TextView
+        android:background="#000000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <Button
+        android:id="@+id/btnSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
